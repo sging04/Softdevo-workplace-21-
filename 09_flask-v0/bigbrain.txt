@@ -1,0 +1,25 @@
+Team Sartre
+Sean Ging, Theodore Fahey, Friedrich, Jordan Carter
+SoftDev
+K09 -- Simple Path to Greatness/ Flask/ Answering questions regarding our prior knowledge of the Structures that Flask Uses
+2021-10-03
+
+
+Q0-Where have you seen similar syntax in other langs?
+The declaration of the Variable is clearly Python, but we have no idea where the _name_ comes from. It might be an argument but we aren't too sure. In Java however, you have to declare the type of variable before initializing. Python determines the type based on the values given.
+
+Q1-  What points of reference do you have for meaning of '/'?
+Its used when locating different files based on the folders they are in. For example, Users/Library/StuySoftDev would be an example. With the slash indicating that the name to the right is part of the name to the left. Maybe the code is trying to find the location of _name_
+
+Q2: Where will this print to? Q3: What will it print?
+We think it will print to the shell, in this case the terminal. We think that it will print the file address of _name_.
+
+Q3: Will this appear anywhere? How u know?
+No, it won't appear anywhere since nothing explicit is said of the return value. It will return it but not do anything with it. 
+
+Q4: Where have you seen similar construcs in other languages?
+This is similar to what is seen in java because this indicates that run is a method of app. In java we would refer to a static method using this syntax for instance, object.add(). We think that in the same way, app is an (object) and "run" would be one of its methods.
+
+After Running:
+
+We're really not sure what happened after running it didn't seem to do anything and. It gave us a warning about development servers and that debug mode was off. It also said that Flask was (lazy loading) and we were unsure what that meant
