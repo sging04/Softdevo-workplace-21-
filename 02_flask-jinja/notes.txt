@@ -1,0 +1,20 @@
+# Team Toast
+    # Sean Ging, Haotian Gan, Aryman Goenka, Tomas Acuna (Duckies: Friedrich, Cinnamon, Untitled, Llamy)
+    # SoftDev
+    # K12: …or The Only Constant is Change? / Jinja2 Templating
+    # 10-07-2021
+
+#Q0: What happens if you remove render_template from this line?
+
+If we remove render_template, we are no longer able to call render_template on line 19 without throwing an error.
+
+#Q1: Can all of your teammates confidently predict the URL to use to load this page?
+
+We can. We think that localhost:5000/my_foist_template will be the URL to load this page.
+
+#Q2: What is the significance of each argument?
+
+The first argument passed in render_template specifies the file in the 'templates' folder to use as a template.
+render_template collects the keyword specified arguments, 'foo' and 'collection' and looks at 'model_tmplt.html's syntax to determine what in it to replace.
+In this specific case, model_tmplt has a loop that loops through collection and returns strings seperated by line breaks. 
+It also has '{{foo}}', syntax to replace this with the value of foo we passed in the function. 

@@ -1,6 +1,9 @@
-# Clyde 'Thluffy' Sinclair
+# Team Toast
+# Sean Ging, Haotian Gan, Aryman Goenka, Tomas Acuna (Duckies: Friedrich, Cinnamon, Untitled, Llamy)
 # SoftDev
-# Oct 2021
+# K12: …or The Only Constant is Change? / Jinja2 Templating
+# 10-07-2021
+
 
 from flask import Flask, render_template #Q0: What happens if you remove render_template from this line?
 app = Flask(__name__)
