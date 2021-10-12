@@ -1,0 +1,27 @@
+Team BurnedToast
+Sean Ging, Tomas Acuna, Naomi Naranjov (Duckies: Friedrich, )
+SoftDev
+K13: Template for Success/ render_templates, randomly generating, app.route
+10-07-2021
+
+One way to generate a Random occupation is to create a random number, then choose a percentage from the csv
+and then see if that value is greater than the randomly selected value. 
+The render_template acts upon an html file, and puts in different values of different "variables" in the html file.
+For instance in render_template there is foo="Random Occupation" which will have the html file display the Radom Occupation.
+Moreover, it acts upon chosen to equal a randomly generated occupation by using the code
+chosen= generateRandom(readfile("data/occupations.csv". 
+
+
+Ego
+The programmer must have abilities and a willingness to work
+
+If a programmer makes his program an extension of themselves,
+they will be unwilling to critically examine their code objectively, as they value the current state of their code a reflection of them.
+This stifles any opportunity for them to get better.
+Successful programming groups allow other people to help discover the person's errors.
+The people that will grow are those willing and accepting that they will be lacking in their code, but are willing to learn and bite the bullet.
+There is a very likely chance that your code has errors, accept it and then look to find them
+with others who look at your code more objectively than you.
+
+This applies to many facets of life: those able to detach from their craft and accept criticism grow their skills faster
+and are usually the top of their work. 

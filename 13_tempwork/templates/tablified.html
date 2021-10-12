@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<!--
+    # Team BurnedToast
+    # Sean Ging, Tomas Acuna, Naomi Naranjov (Duckies: Friedrich, )
+    # SoftDev
+    # K13: Template for Success/ render_templates, randomly generating, app.route
+    # 10-07-2021
+ -->
+
+<html>
+  <head>
+    <title>{{ foo }}</title>
+  </head>
+
+  <body>
+
+    <h1>Occupations</h1>
+    {% for job, chance in jc %}
+    <h3>{{job}}:{{chance}}</h3>
+    {% endfor %}
+
+    <h1>Your job is {{chosen}}</h1>
+  </body>
+</html>
