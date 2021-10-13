@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <!--
     # Team BurnedToast
     # Sean Ging, Tomas Acuna, Naomi Naranjov (Duckies: Friedrich, )
@@ -8,16 +8,43 @@
  -->
 
 <html>
+  <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+
   <head>
-    <title>{{ foo }}</title>
+
+    Team BurnedToast: Sean Ging, Thomas Acuna, Naomi Naranjo
+    <title> {{ foo }} </title>
+
   </head>
 
   <body>
 
     <h1>Occupations</h1>
-    {% for job, chance in jc %}
+
+
+
+    <table>
+
+      <tr>
+        <th>Job Class</th>
+        <th>Percentage</th>
+      </tr>
+      {% for job, chance in jc %}
+      <tr>
+        <td>{{job}}</td>
+        <td>{{chance}}</td>
+      </tr>
+
+      {% endfor %}
+
+    </table>
+
     <h3>{{job}}:{{chance}}</h3>
-    {% endfor %}
+
 
     <h1>Your job is {{chosen}}</h1>
   </body>

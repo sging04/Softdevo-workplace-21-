@@ -34,7 +34,7 @@ def generateRandom(occupations):
 
 @app.route("/occupyflaskst")
 def funct():
-    return render_template("tablified.html",foo="Random Occupation", jc = list(csv.reader(open("data/occupations.csv", "r")))[1:-1], chosen= generateRandom(readfile("data/occupations.csv")))
+    return render_template("tablified.html", foo="Random Occupation", tnpg = "BurnedToast: Sean Ging, Tomas Acuna, Naomi Naranjo" ,jc = list(csv.reader(open("data/occupations.csv", "r")))[1:-1], chosen= generateRandom(readfile("data/occupations.csv")))
 if __name__ == "__main__":
     app.debug = True
     app.run()
