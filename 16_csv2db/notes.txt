@@ -1,0 +1,5 @@
+Team Sports! - Sean Ging and Deven Maheshwari
+
+Similar to java, the syntax includes a ";" at the end of the command
+First you CREATE TABLE in the database (name <sth>, id <sth>), then you insert values into the table
+.open ends ability to add values to db.
