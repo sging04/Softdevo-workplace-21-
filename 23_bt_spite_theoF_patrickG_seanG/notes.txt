@@ -1,8 +1,15 @@
-Spite: Ella Krechmer and Ivan Lam (+Sean Ging, Patrick Ging, Theo Fahey)
+Team Spite
+Patrick Ging, Sean Ging, Theo Fahey
 SoftDev
 K22: Who Does Frame Work For? -- Bootstrap/Foundation CSS
+2021-12-01
 
+- there is no Jumbotron in Bootstrap 5,have to use some classes similar to it
+- you can stack classes in bootstrap
+- most color classes in bootstrap are associated with primary secondary dark success etc
+- You have a grid system too, it's a bit easier to type in because of the abbreviations but is basically the same
+- Dependencies exist for bootstrap too, you can use a cdn for bootstrap which is really nice
+- images can be used too!
+- what's a tad bit annoying is a lot of the classes for wrapping text aren't quite visualisable now (I suppose reading the wrong documentations compicates things lmao ) compared to foundation which has a bit more clarity in this regard
 - you need to link the bootstrap in the head
-- some things aren't working? we were trying to interact with the accordion but besides what was showing up originally, nothing happened (e.g. when we clicked to open another accordion section, it didn't work)
-- dropdown button not working? but looks much nicer than in regular html/css
-- apparently things that aren't working just require a lot of movement and javascript, but since we don't have it we aren't really able to interact (I assume because you aren't changing the states of anything)
+- can do div class="container text-center"
