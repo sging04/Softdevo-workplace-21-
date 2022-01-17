@@ -1,1 +1,25 @@
+Sean Ging, Oscar Wang, Aryman Goenka 
+Softdev
+K24: Cold LAMPin w Flav
+2022-01-14
+1hr
 
+Notes
+ssh root@<serverip>
+adduser <user>
+usermod -aG sudo <user>
+sudo <command> allows the user to run commands with superuser privileges 
+
+ufw app list : shows available applications
+
+sudo apt install apache2 : install apache
+
+sudo ufw allow 'Apache'
+  and sudo ufw status    : checks status 
+  
+  
+  
+Sources
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-18-04
+
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04
