@@ -5,12 +5,13 @@ K27 -- Basic functions in JavaScript
 
 DISCO
 -----------------------------------------------------------------
-* Ooooh, ___
-* Aaah-haa!  ____...
+* Ooooh, in javascript you are defining a function then assigning a body to it. So function <name>(<args>){ body of code}
+
+* Aaah-haa! You need to return a value in the function. 
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* Why...?
-* Huh?
-* Whuh now?
+* Why...? What other functions does the console serve?
+* Huh? I have more questions about the scripts and how they work in javascript and their implementation in html. 
+* Whuh now? Can we have the scripts function outside of the console, like show text on a website page? What other functions do they serve?
