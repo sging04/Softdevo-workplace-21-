@@ -5,17 +5,14 @@
 
 
 
-var fact = function(n){
+function fact(n){
   if(n <= 1)
-  1
-  (n * (fact(- n 1)))
-};
+  return 1;
+  return n * fact(n - 1);
+}
 
-var fib = function(n){
+function fib(n){
   if(n<=  1)
-  n
-  ((fib(n - 1)) + (fib(n - 2)))
-};
-
-
-print(fib(2));
+  return n;
+  return fib(n - 1) + fib(n - 2);
+}
