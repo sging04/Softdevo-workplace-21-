@@ -1,0 +1,8 @@
+Team Blue Duck
+Patrick and Sean Ging
+Period 1
+K29: DOMfoolery++
+
+
+- Can consolidate the line into document.getElementById.addEventListener()
+- has to be after the function it uses is defined
