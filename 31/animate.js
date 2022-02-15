@@ -10,7 +10,7 @@ function clear(e) {
   ctx.clearRect(0,0,c.width, c.height);
 }
 
-var radius = 0;
+var radius = 10;
 var growing = true;
 
 function drawDot(e) {
@@ -18,5 +18,6 @@ function drawDot(e) {
 
   ctx.beginPath();
   ctx.arc(c.width / 2, c.height / 2, radius, 0, 2 * Math.PI);
+  ctx.fill();
   ctx.stroke();
 }
