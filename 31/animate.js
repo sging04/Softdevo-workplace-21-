@@ -12,12 +12,25 @@ function clear(e) {
 
 var radius = 10;
 var growing = true;
-
-function drawDot(e) {
+var drawDot = (e) => {
   clear(e);
 
+  //window.requestAnimationFrame(callback);
+  // tells browser that you wish to perform animation
   ctx.beginPath();
   ctx.arc(c.width / 2, c.height / 2, radius, 0, 2 * Math.PI);
   ctx.fill();
   ctx.stroke();
+  radius += .5;
+  requestID=  window.requestAnimationFrame(drawDot);
+
+  }
+var stopIt = (rID) => {
+  window.cancelAnimationFrame(rID);
 }
+
+function grow(e){
+  ctx.beginPath();
+}
+document.getElementById("startButton").addEventListener("click", drawDot);
+document.getElementById("stopButton").addEventListener("click",  stopIt);
