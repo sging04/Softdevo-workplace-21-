@@ -4,3 +4,6 @@ Softdev
 Period 1
 
 Notes:
+
+MongoDB doesn't use the SQL's usage of rows/columns
+Items are stored in documents and stacks of documents.
