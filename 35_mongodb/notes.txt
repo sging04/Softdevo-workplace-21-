@@ -27,3 +27,7 @@ mongoexport --uri="mongodb+srv://<your username>:<your password>@<your cluster>.
 mongorestore --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/sample_supplies"  --drop dump
 
 mongoimport --uri="mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/sample_supplies" --drop sales.json
+  add a collection
+  
+  Data explorer
+  You can query a particular db through the atlas User interface 
