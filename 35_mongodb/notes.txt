@@ -31,3 +31,4 @@ mongoimport --uri="mongodb+srv://<your username>:<your password>@<your cluster>.
   
   Data explorer
   You can query a particular db through the atlas User interface 
+  db.<collection name>.find(query )
